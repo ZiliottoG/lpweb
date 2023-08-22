@@ -1,0 +1,19 @@
+body {
+	background-color:pink;
+	color:black;
+}
+nav ul {
+
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+
+}
+
+#Azul{
+	color:blue
+}
+
+.Vermelho{
+	color:red
+}
