@@ -1,0 +1,293 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Página Empresa */
+.company-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.company-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Página Produtos */
+.products-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Página Contato */
+.contact-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #004c9a;
+}
+
+/* Estilos para a meia lua */
+.half-moon-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.half-moon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #333;
+    z-index: -1;
+}
+
+/* Estilos para a seção de ícones no canto inferior direito */
+.icon-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.icon-section a {
+    margin-top: 10px;
+}
+
+.icon-section img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilos para a página de contato */
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Estilos para o carrossel de produtos */
+
+.footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel-buttons button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.carousel-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.carrossel-slide img {
+    max-width: 100%;
+    height: auto;
+}
